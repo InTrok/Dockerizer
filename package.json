@@ -1,0 +1,20 @@
+{
+    "name": "dockerizer",
+    "version": "1.0.0",
+    "description": "An on-demand minecraft server spawner using docker containers",
+    "main": "dist/App.js",
+    "repository": "git@github.com:InTrok/Dockerizer.git",
+    "author": "Alpha Man <xalphamanx@tuta.io>",
+    "license": "GPL-3.0",
+    "private": false,
+    "dependencies": {
+        "express": "^4.17.1",
+        "typescript": "^3.7.4"
+    },
+    "scripts": {
+        "compile": "tsc -p tsconfig.json -w"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.2"
+    }
+}
